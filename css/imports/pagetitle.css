@@ -76,7 +76,7 @@
   color: rgba(255, 255, 255, 0.95);
 }
 #page-title.page-title-dark .breadcrumb-item + .breadcrumb-item::before {
-  color: #CCC;
+  color: white;
 }
 #page-title.page-title-right {
   text-align: right;
