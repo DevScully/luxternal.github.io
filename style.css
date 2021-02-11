@@ -162,7 +162,7 @@ a {
 }
 
 a:hover {
-  color: #222;
+  color: var(--color1) !important;
 }
 
 a img {
@@ -18097,11 +18097,30 @@ label.checkbox {
   animation-name: fadeOutUpSmall;
 }
 
-
 /* TERMS OF SERVICE KAK*/
 
 .terms-sub-headings {
+  text-decoration-line: underline;
+  text-decoration-color: #c5b358;
+  text-decoration-style: wavy;
+}
 
+.legal-wrapper {
+  padding: 25px;
+  margin: 20px;
+}
 
+#legal-headers {
+  padding: 25px;
+  text-decoration: underline;
+  text-decoration-color: #c5b358;
+}
 
+#website-headers {
+  text-decoration: #c5b358;
+  text-decoration-line: underline;
+}
+
+.important-contact {
+  color: red;
 }
