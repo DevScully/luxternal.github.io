@@ -4,8 +4,6 @@
 	Replace your Fonts as necessary
 -----------------------------------------------------------------*/
 
-
-
 body,
 small,
 .sub-menu-container .menu-item > .menu-link,
@@ -34,8 +32,9 @@ label,
 .widget-filter-links li a,
 .nav-tree li a,
 .wedding-head,
-.font-primary { font-family: 'Poppins', sans-serif !important; }
-
+.font-primary {
+  font-family: "Raleway", sans-serif !important;
+}
 
 .entry-link span,
 .entry blockquote p,
@@ -48,4 +47,6 @@ label,
 .before-heading,
 .wedding-head .first-name span,
 .wedding-head .last-name span,
-.font-secondary { font-family: 'PT Serif', serif !important; }
+.font-secondary {
+  font-family: "Raleway", serif !important;
+}

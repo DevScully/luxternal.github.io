@@ -1,7 +1,7 @@
 /* ----------------------------------------------------------------
 	Fonts
 
-	Replace your Fonts as necessary
+	
 -----------------------------------------------------------------*/
 
 
@@ -24,7 +24,7 @@ small,
 .before-heading,
 .wedding-head .first-name span,
 .wedding-head .last-name span,
-.font-secondary { font-family: 'Poppins', sans-serif !important; }
+.font-secondary { font-family: 'Raleway', sans-serif !important; }
 
 
 h1,

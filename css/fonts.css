@@ -1,9 +1,8 @@
 /* ----------------------------------------------------------------
 	Fonts
 
-	Replace your Fonts as necessary
+	
 -----------------------------------------------------------------*/
-
 
 body,
 small,
@@ -12,8 +11,9 @@ small,
 .fbox-center.fbox-italic p,
 .skills li .progress-percent .counter,
 .nav-tree ul ul a,
-.font-body { font-family: 'Lato', sans-serif !important; }
-
+.font-body {
+  font-family: "Raleway", sans-serif !important;
+}
 
 h1,
 h2,
@@ -35,8 +35,9 @@ label,
 .widget-filter-links li a,
 .nav-tree li a,
 .wedding-head,
-.font-primary { font-family: 'Poppins', sans-serif !important; }
-
+.font-primary {
+  font-family: "Raleway", sans-serif !important;
+}
 
 .entry-link span,
 .entry blockquote p,
@@ -49,5 +50,6 @@ label,
 .before-heading,
 .wedding-head .first-name span,
 .wedding-head .last-name span,
-.font-secondary { font-family: 'PT Serif', serif !important; }
-
+.font-secondary {
+  font-family: "Raleway", serif !important;
+}

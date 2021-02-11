@@ -239,7 +239,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: raleway;
   font-size: inherit;
   line-height: inherit;
 }
@@ -260,6 +260,7 @@ select {
 
 select {
   word-wrap: normal;
+  cursor: pointer;
 }
 
 button,
