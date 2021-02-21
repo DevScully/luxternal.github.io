@@ -158,11 +158,11 @@ body {
 
 a {
   text-decoration: none !important;
-  color: var(--color1);
+  color: white;
 }
 
 a:hover {
-  color: var(--color1) !important;
+  color: white!important;
 }
 
 a img {
@@ -14935,7 +14935,7 @@ body:not(.device-touch) #gotoTop {
 }
 
 #gotoTop:hover {
-  background-color: #1abc9c;
+  background-color: var(--color1);
 }
 
 /* ----------------------------------------------------------------
