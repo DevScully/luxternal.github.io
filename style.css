@@ -162,7 +162,7 @@ a {
 }
 
 a:hover {
-  color: white!important;
+  color: white !important;
 }
 
 a img {
@@ -3613,11 +3613,10 @@ html[xmlns] .slider-wrap {
   display: block;
   max-width: 100%;
   max-height: 100%;
-  
 }
 
-.header-size-sm #header-wrap #logo  {
- height:110px;
+.header-size-sm #header-wrap #logo {
+  height: 110px;
 }
 
 .header-size-md #header-wrap #logo img {
