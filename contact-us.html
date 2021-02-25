@@ -112,10 +112,11 @@
                     >
                   </li>
                   <li class="menu-item">
-                    <a class="menu-link" href="index.html#section-schedule" 
-                      ><div>Schedule</div></a
+                    <a class="menu-link" href="index.html#section-faq" 
+                      ><div>FAQ's</div></a
                     >
                   </li>
+                
                   <li class="menu-item">
                     <a class="menu-link" href="index.html#section-winners" 
                       ><div>Winners</div></a
@@ -190,47 +191,40 @@
 							============================================= -->
 							<h3 class="terms-sub-headings">Send us an Email</h3>
 
-							<div class="form-widget">
+						
 
-								<div class="form-result"></div>
+								<form class="mb-0" id="template-contactform" name="Contact" action="connect.php" method="post">
 
-								<form class="mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
-
-									<div class="form-process">
-											<div class="css3-spinner">
-												<div class="css3-spinner-scaler"></div>
-											</div>
-										</div>
 
 									<div class="row">
 										<div class="col-md-4 form-group">
 											<label for="template-contactform-name">Name <small class="important-contact">*</small></label>
-											<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+											<input type="text" id="template-contactform-name" name="name"  class="sm-form-control required" />
 										</div>
 
 										<div class="col-md-4 form-group">
 											<label for="template-contactform-email">Email <small class="important-contact">*</small></label>
-											<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+											<input type="email" id="template-contactform-email" name="email" class="required email sm-form-control" />
 										</div>
 
 										<div class="col-md-4 form-group">
 											<label for="template-contactform-phone">Phone</label>
-											<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+											<input type="text" id="template-contactform-phone" name="number" class="sm-form-control" />
 										</div>
 
 										<div class="clear"></div>
 
 										<div class="col-md-8 form-group">
 											<label for="template-contactform-subject">Subject <small class="important-contact">*</small></label>
-											<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control" />
+											<input type="text" id="template-contactform-subject" name="subject"  class="required sm-form-control" />
 										</div>
 
 										<div class="col-md-4 form-group">
 											<label for="template-contactform-service">Inquiry</label>
-											<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
-												<option value="">-- Select One --</option>
-												<option value="Wordpress">I Am A Celebrity</option>
-												<option value="PHP / MySQL">I Am A Sponsor</option>
+											<select id="template-contactform-service" name="inquiry" class="sm-form-control">
+												<option >-- Select One --</option>
+												<option >I Am A Celebrity</option>
+												<option >I Am A Sponsor</option>
 												
 											</select>
 										</div>
@@ -239,22 +233,15 @@
 
 										<div class="col-12 form-group">
 											<label for="template-contactform-message">Message <small class="important-contact">*</small></label>
-											<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+											<textarea class="required sm-form-control" id="template-contactform-message" name="message" rows="6" cols="30"></textarea>
 										</div>
 
-										<div class="col-12 form-group d-none">
-											<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
-										</div>
+									
+
+										
 
 										<div class="col-12 form-group">
-
-											<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-											<div class="g-recaptcha" data-sitekey="6LfOeFIaAAAAABOP-CKC7-VsiGPeu03R51kkHrHi"></div>
-
-										</div>
-
-										<div class="col-12 form-group">
-											<button class="button button-effect m-0" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+											<button class="button button-effect m-0" type="submit" id="template-contactform-submit" name="submit" value="submit">Send Message</button>
 										</div>
 									</div>
 
@@ -289,34 +276,6 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
-  <script>
-    jQuery(document).ready(function () {
-      // Ticket Price Changed Script
-      var elementEarlyBird = $("#early-bird-person"),
-        element1Day = $("#1-day-pricing-person"),
-        element2Day = $("#2-day-pricing-person"),
-        elementFull = $("#full-pricing-person");
-
-      elementEarlyBird.on("change", function () {
-        pricingEarlyBird = $(this).prop("value");
-        jQuery(".early-bird-pricing").html("$" + pricingEarlyBird * 39);
-      });
-
-      element1Day.on("change", function () {
-        pricing1day = $(this).prop("value");
-        jQuery(".1-day-pricing").html("$" + pricing1day * 29);
-      });
-
-      element2Day.on("change", function () {
-        pricing2Day = $(this).prop("value");
-        jQuery(".2-day-pricing").html("$" + pricing2Day * 49);
-      });
-
-      elementFull.on("change", function () {
-        pricingFull = $(this).prop("value");
-        jQuery(".full-pricing").html("$" + pricingFull * 69);
-      });
-    });
-  </script>
+  
 </body>
 </html>
